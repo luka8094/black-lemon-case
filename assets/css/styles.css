@@ -1,2 +1,71 @@
-@import "global.css"
+@import "global.css";
 
+.container{
+   display: flex;
+   height: 90vh; 
+   width: 100%;
+}
+
+.product{
+    background-color: var(--product-background);
+    height: 770px;
+}
+
+.product-image{
+    height: auto;
+    max-width: 100%;
+}
+
+.product-description-container{
+    display: flex;
+    flex-direction: column;
+    height: 770px;
+    width: 100%;
+    padding: 2.5em 3em 2.5em 2.5em;
+    background-color: var(--product-detailsbox);
+}
+
+.product-description{
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    width: 396px;
+    border: dashed 1px black;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-top: solid 1.5px black;
+    border-bottom: solid 1.5px black;
+}
+
+.product-info-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.product-cart-button{
+    height: 47px;
+    width: 396px;
+    background: var(--product-cart-button);
+    font-size: 18px;
+    color: var(--product-cart-button-text);
+    border: none;
+}
+
+.products{
+    background-color: var(--products-reel);
+}
+
+.products-passing-through{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
