@@ -1,29 +1,33 @@
-/* Rough estimate on size of carousel section 
-    height: 798px
+/* stylesheet for slider section */
 
-*/
-
-.container-products{
+.suggestions-wrapper{
     display: flex;
     flex-direction: column;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
     justify-content: center;
     align-content: center;
 }
 
-.container-products h1{
+.suggestions-wrapper h1{
     margin: auto;
     padding: .5em;
+}
+
+.slider::-webkit-scrollbar{
+    display: none;
 }
 
 .slider{
     display: flex;
     width: 95%;
-    height: 500px;
+    height: 605px;
     margin: auto;
     border: dashed 1px black;
     overflow: hidden;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 .slider ul{
@@ -33,10 +37,14 @@
 .slider-item{
     display: flex;
     flex-direction: column;
-    width: 275px;
-    height: 435px;
-    margin: auto 10px;
+    width: 380px;
+    height: 580px;
+    margin: 0 30px auto 0;
     border: dashed 1px black;
+}
+
+.slider-item:nth-child(n+2){
+    margin: 0 30px auto;
 }
 
 .slider-item p:nth-child(2){
@@ -58,5 +66,5 @@
 
 .slider-item-image{
     height: auto;
-    width: 270px;
+    width: 380px;
 }

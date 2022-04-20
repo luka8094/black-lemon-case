@@ -1,12 +1,13 @@
+/* mobile media quieries for product section */
 @media screen and (max-width: 414px){
 
     .product-image{
         object-fit: contain;
     }
 
-    .container-product{
+    .product-wrapper{
         flex-direction: column;
-        height: 160vh !important;
+        height: 120vh !important;
         width: 100%;
     }
 
@@ -17,6 +18,7 @@
 
     .product-description-container{
         padding: 0 !important;
+        height: 700px !important;
     }
 
     .product-description {

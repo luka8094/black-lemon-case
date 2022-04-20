@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/img/black_lemon_favicon.svg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
@@ -12,7 +13,8 @@
 </head>
 <body>
     <!-- <main> -->
-        <section class="container-product product">
+        <!-- single item display section -->
+        <section class="product-wrapper product">
             <img class="product-image" src="assets/img/image 3.png">
             <div class="product-description-container">
                 <section class="bread-crumbs-container">
@@ -21,7 +23,7 @@
                         <div class="line line-2"></div>
                         <div class="line line-3"></div>
                     </div>
-                    <a>ALL PRODUCTS / HAIRCARE / RESTORATIVE HAIR MASK</a>
+                    <a href="#">ALL PRODUCTS / HAIRCARE / RESTORATIVE HAIR MASK</a>
                 </section>
                 <aside class="product-description">
                     <article>
@@ -36,19 +38,25 @@
                         <hr>
                     </article>
                     <ul class="product-specification-list">
-                        <li class="production-specification not-animal-tested">
-                            <img src="assets/img/not_animal_tested.svg">
+                        <li class="product-specification not-animal-tested">
+                            <picture>
+                                <source media="(max-width:414px)" srcset="assets/img/not_animal_tested.svg">
+                                <img src="assets/img/organic.svg">
+                            </picture>
                             <p>100% ORGANIC</p>
                         </li>
-                        <li class="production-specification organic">
+                        <li class="product-specification organic">
                             <img src="assets/img/organic.svg">
                             <p>100% ORGANIC</p>
                         </li>
-                        <li class="production-specification not-animal-tested">
-                            <img src="assets/img/not_animal_tested.svg">
+                        <li class="product-specification not-animal-tested">
+                            <picture>
+                                <source media="(max-width:414px)" srcset="assets/img/not_animal_tested.svg">
+                                <img src="assets/img/organic.svg">
+                            </picture>
                             <p>100% ORGANIC</p>
                         </li>
-                        <li class="production-specification organic">
+                        <li class="product-specification organic">
                             <img src="assets/img/organic.svg">
                             <p>100% ORGANIC</p>
                         </li>
@@ -60,10 +68,24 @@
                 </aside>
             </div>
         </section>
-        <section class="container-products">
+        
+        <!-- suggestions slider display section -->
+        <section class="suggestions-wrapper">
             <h1>YOU MAY ALSO LIKE</h1>
             <nav class="slider">
-                <ul>
+                <ul id="slider-row">
+                    <li class="slider-item">
+                        <img class="slider-item-image" src="assets/img/image 6.png">
+                        <p>HAND POMADE / POMMADE MAINS</p>
+                        <p>NOURISHMENT FOR YOUR HANDS</p>
+                        <p>159,00 KR</p>
+                    </li>
+                    <li class="slider-item">
+                        <img class="slider-item-image" src="assets/img/image 6.png">
+                        <p>HAND POMADE / POMMADE MAINS</p>
+                        <p>NOURISHMENT FOR YOUR HANDS</p>
+                        <p>159,00 KR</p>
+                    </li>
                     <li class="slider-item">
                         <img class="slider-item-image" src="assets/img/image 6.png">
                         <p>HAND POMADE / POMMADE MAINS</p>
@@ -81,7 +103,8 @@
         </section>
     <!-- </main> -->
 </body>
-<footer src="assets/js/script.js">
-
+<footer>
+    <script src="assets/js/script.js">
+    </script>
 </footer>
 </html>

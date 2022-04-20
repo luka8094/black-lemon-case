@@ -1,7 +1,17 @@
+/* mobile media quieries for slider/suggestions section */
 @media screen and (max-width: 414px){
 
-    .container-products{
-        height: 90vh !important;
+    .suggestions-wrapper{
+        height: 70vh !important;
+    }
+
+    .slider-item{
+        width: 300px !important;
+        height: 470px !important;
+    }
+
+    .slider-item-image{
+        width: 300px !important;
     }
 
 }
