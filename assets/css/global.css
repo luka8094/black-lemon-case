@@ -3,8 +3,10 @@
     --product-cart-button: #BFABAB;
     --product-cart-button-text: #4D4D4D;
     --products-reel: #FFFFFA;
-    --height: 100vh;
-    --width: 100%;
+
+    --bold-font: 700;
+    --regular-font: 500;
+    --light-font: 400;
 }
 
 *{

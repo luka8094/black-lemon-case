@@ -1,8 +1,10 @@
 @import "global.css";
 @import "media-queries.css";
+@import "media-queries-slider.css";
+@import "product.css";
+@import "slider.css";
 
-.container-product,
-.container-products{
+.container-product{
    display: flex;
    height: 90vh; 
    width: 100%;
@@ -75,8 +77,8 @@
 }
 
 .product-description article header{
-    margin-top: 55px;
     display: flex;
+    margin-top: 55px;
     flex-direction: column;
     height: 100px;
 }

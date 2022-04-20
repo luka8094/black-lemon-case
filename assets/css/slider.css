@@ -1,0 +1,62 @@
+/* Rough estimate on size of carousel section 
+    height: 798px
+
+*/
+
+.container-products{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.container-products h1{
+    margin: auto;
+    padding: .5em;
+}
+
+.slider{
+    display: flex;
+    width: 95%;
+    height: 500px;
+    margin: auto;
+    border: dashed 1px black;
+    overflow: hidden;
+}
+
+.slider ul{
+    display: flex;
+}
+
+.slider-item{
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    height: 435px;
+    margin: auto 10px;
+    border: dashed 1px black;
+}
+
+.slider-item p:nth-child(2){
+    margin-top: 10px;
+    color: var(--product-cart-button-text);
+}
+
+.slider-item p:nth-child(3){
+    margin-top: 2px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.slider-item p:nth-child(4){
+    margin-top: auto;
+    font-size: 18px;
+    color: var(--product-cart-button-text);
+}
+
+.slider-item-image{
+    height: auto;
+    width: 270px;
+}

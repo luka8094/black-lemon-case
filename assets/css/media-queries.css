@@ -6,6 +6,8 @@
 
     .container-product{
         flex-direction: column;
+        height: 160vh !important;
+        width: 100%;
     }
 
     .bread-crumbs-container{
@@ -31,9 +33,8 @@
         margin-top: 25px;
     }
     
-    .product-specification p{
-        margin-left: 13.5px;
-        margin-right: auto;
+    .production-specification p{
+        font-size: 13.5px;
     }
 
     .product-cart-button{
