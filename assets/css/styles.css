@@ -1,7 +1,7 @@
 /* general stylesheet to manage and maintain 
 partitioned styling across stylesheets with their own region of responsibility*/
 @import "global.css";
-@import "media-queries-product.css";
-@import "media-queries-slider.css";
 @import "product.css";
 @import "slider.css";
+@import "media-queries-product.css";
+@import "media-queries-slider.css";

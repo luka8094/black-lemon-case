@@ -15,19 +15,20 @@ window.onload= () => {
             const newSliderItem = document.createElement("li")
 
             newSliderItem.classList.add("slider-item")
-            newSliderItem.innerHTML = sliderItemContent
+            newSliderItem.innerHTML = sanitizer(sliderItemContent)
 
             slider.append(newSliderItem)
         }
-    })(3)
+    })(5)
 
-    //this function would sanitize suspicious input
-    function sanitizer(text){
-        return text.replace(/</g,'')
-            .replace(/>/g,'')
-            .replace(/=/g, '')
-            .replace(/\\/g,'')
-            .replace(/$/g, '')
-            .replace(/?/g,'')
+    //This function would sanitize suspicious input
+    function sanitizer(input){
+        return input.replace(/</g, '&#60;')
+            .replace(/>/g, '&#62;')
+            .replace(/=/g, '&#61;')
+            .replace(/$/g, '&#36;')
+            .replace(/?/g, '&#63;')
+            .replace(/}/g, '&#125;')
+            .replace(/{/g, '&#123;')
     }
 }

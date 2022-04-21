@@ -19,7 +19,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-h1{
+h2{
     font-size: 28px;
 }
 
@@ -30,7 +30,7 @@ p{
 }
 
 hr{
-    height: 1px;
+    height: 0.1em;
     border-width: 0px;
-    background: black;
+    background: var(--product-cart-button-text);
 }
