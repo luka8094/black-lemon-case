@@ -1,0 +1,31 @@
+/* stylesheet for font back-ups in case of inavailability */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('/assets/font/Lato-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('/assets/font/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src:  url('/assets/font/Lato-Light.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src:  url('/assets/font/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+

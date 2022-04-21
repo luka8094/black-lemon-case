@@ -1,5 +1,6 @@
 /* general stylesheet to manage and maintain 
 partitioned styling across stylesheets with their own region of responsibility*/
+@import "fonts.css";
 @import "global.css";
 @import "product.css";
 @import "slider.css";
