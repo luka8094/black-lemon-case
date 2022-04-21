@@ -70,3 +70,13 @@
     height: auto;
     width: 380px;
 }
+
+.slider-item-button{
+    display: flex;
+    flex-direction: column;
+    height: 580px;
+    width: 380px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

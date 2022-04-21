@@ -35,8 +35,12 @@
         margin-top: 25px;
     }
     
-    .production-specification p{
+    .product-specification p{
         font-size: 13.5px;
+    }
+
+    .product-specification:nth-child(2n+2) > img{
+        margin-left: auto;
     }
 
     .product-cart-button{

@@ -28,6 +28,10 @@
      cursor: pointer;
      color: var(--product-cart-button-text);
  } 
+
+ .bread-crumbs-container span a:hover{
+    text-decoration: underline;
+ }
  
  .bread-crumbs-arrow{
      display: flex;
@@ -127,6 +131,10 @@
  .product-specification p{
      margin-left: 10px;
      margin-right: auto;
+ }
+
+ .product-specification:nth-child(2n+2) > img{
+    margin-left: auto;
  }
  
  .product-cart-button{
