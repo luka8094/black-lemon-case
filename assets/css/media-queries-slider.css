@@ -2,7 +2,12 @@
 @media screen and (max-width: 414px){
 
     .suggestions-wrapper{
-        height: 70vh !important;
+        height: 634px !important;
+    }
+
+    .slider{
+        height: 520px;
+        margin: 0 0 0 auto;
     }
 
     .slider-item{
