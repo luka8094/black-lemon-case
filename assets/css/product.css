@@ -21,13 +21,20 @@
  }
 
  .product-image-slider-container::-webkit-scrollbar{
-    display: none;
+    background: transparent;
  }
 
  .product-image-slider::-webkit-scrollbar{
-    display: none;
+    background: #ece7e2;
+ }
+
+ .product-image-slider::-webkit-scrollbar-track{
+    background: transparent;
  }
  
+ .product-image-slider::-webkit-scrollbar-thumb{
+    background: var(--product-cart-button);
+ }
  .product-image{
     height: auto;
     max-width: 910px;
