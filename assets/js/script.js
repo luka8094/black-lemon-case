@@ -20,6 +20,6 @@ window.onload= () => {
 
             slider.append(newSliderItem)
         }
-    })(5)
+    })(7)
 
 }

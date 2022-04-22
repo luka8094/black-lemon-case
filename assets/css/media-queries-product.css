@@ -3,6 +3,7 @@
 
     .product-image{
         object-fit: contain;
+        width: 100%;
     }
 
     .product-wrapper{
