@@ -7,7 +7,7 @@
 
     .product-wrapper{
         flex-direction: column;
-        height: 120vh !important;
+        height: fit-content !important;
         width: 100%;
     }
 
@@ -18,7 +18,8 @@
 
     .product-description-container{
         padding: 0 !important;
-        height: 700px !important;
+        height: 660px !important;
+        width: 100%;
     }
 
     .product-description {
@@ -40,7 +41,7 @@
     }
 
     .product-specification:nth-child(2n+2) > img{
-        margin-left: auto;
+        margin-left: 15px;
     }
 
     .product-cart-button{

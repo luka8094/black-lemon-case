@@ -4,7 +4,6 @@
     --product-detailsbox: #F6F6F5;
     --product-cart-button: #BFABAB;
     --product-cart-button-text: #4D4D4D;
-    --products-reel: #FFFFFA;
 
     /* Typograhpy size hierarchy */
     --bold-font: 700;
@@ -17,6 +16,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
 }
 
 h2{

@@ -9,7 +9,7 @@ window.onload= () => {
     </button>
     `
 
-    //This function will auto-fill the slider by appending child a number of elements to it.
+    //This function auto-fills the slider by appending a number of elements to it.
     //@Params{number}: decides the extra amount of additional suggestion items to be added to the horizontal slider queue 
     ;(function appendItems(number){
         for(let i = 0; i < number; i++){
