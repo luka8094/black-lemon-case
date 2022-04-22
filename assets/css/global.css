@@ -1,6 +1,7 @@
 /* global variables/values and default styles */
 :root{
     /* color palette sampled from dummy mock-up */
+    --product-section-background: #ECE7E2;
     --product-detailsbox: #F6F6F5;
     --product-cart-button: #BFABAB;
     --product-cart-button-text: #4D4D4D;
