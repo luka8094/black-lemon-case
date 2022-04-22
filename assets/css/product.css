@@ -11,21 +11,27 @@
  }
 
  .product-image-slider-container{
-     display: flex;
+    display: flex;
+    overflow: hidden;
  }
 
  .product-image-slider{
      display: flex;
-     overflow: hidden;
      overflow-x: scroll;
+ }
+
+ .product-image-slider-container::-webkit-scrollbar{
+    display: none;
+ }
+
+ .product-image-slider::-webkit-scrollbar{
+    display: none;
  }
  
  .product-image{
     height: auto;
-    max-width: 100%;
+    max-width: 910px;
     object-fit: cover;
-    overflow: hidden;
-    overflow-x: scroll;
  }
  
  .bread-crumbs-container{
@@ -147,7 +153,7 @@
  }
 
  .product-specification:nth-child(2n+2) > img{
-    margin-left: auto;
+    margin-left: 27px;
  }
  
  .product-cart-button{
