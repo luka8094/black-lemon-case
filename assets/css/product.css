@@ -6,7 +6,7 @@
  }
  
  .product{
-     background-color: var(--product-section-background);
+     background-color: var(--product-detailsbox);
      height: 770px;
  }
 
@@ -95,7 +95,6 @@
      flex-direction: column;
      height: 770px;
      width: 523px;
-     margin-left: auto;
      padding: 2.5em 3em 2.5em 3.6em;
      background-color: var(--product-detailsbox);
  }
