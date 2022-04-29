@@ -37,8 +37,12 @@
     }
 
     .product-description article header h2 {
-        margin-top: 25px;
+        margin-top: 25px;  
         font-size: 1.1em;
+    }
+
+    .product-description article header h4{
+        font-size: .8em;
     }
 
     .product-description article summary {
