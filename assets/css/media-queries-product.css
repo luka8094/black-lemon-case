@@ -14,35 +14,60 @@
 
     .bread-crumbs-container{
         width: 100%;
-        padding: 10px 26px;
+        padding: 16px 20px 0px;
+        font-size: .59em;
     }
 
     .product-description-container{
         padding: 0 !important;
-        height: 660px !important;
+        height: fit-content !important;
         width: 100%;
     }
 
     .product-description {
-        max-width: 362px;
-        max-height: 600px;
+        padding: 1em 1em 2em;
+        height: fit-content;
+        max-width: 100%;
         margin: 0 auto;
     }
 
     .product-description article header {
         margin-top: 5px !important;
+        height: 5.5em;
     }
 
     .product-description article header h2 {
         margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .product-description article summary {
+        font-size: .77em;;
+        height: 10em !important;
     }
     
-    .product-specification p{
-        font-size: 13.5px;
+    .product-specification{
+        height: 5.9em;
+    }
+
+    .product-specification-list li picture img{
+        width: 90%;
+    }
+
+    .product-specification p {
+        font-size: .68em;
+        font-weight: 700;
+        margin-left: 0 !important;
+    }
+
+    .product-specification:nth-child(2n+2) > p{
+        margin-left: auto !important;
+        margin-right: 0 !important;
     }
 
     .product-specification:nth-child(2n+2) > img{
-        margin-left: 15px;
+        margin: 0 .1em 0 .5em;
+        width: 35%;
     }
 
     .product-cart-button{

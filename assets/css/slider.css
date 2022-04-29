@@ -17,17 +17,6 @@
     font-weight: 400;
 }
 
-.slider::-webkit-scrollbar{
-    display: flex;
-}
-
-.slider::-webkit-scrollbar-track{
-    background: transparent;
-}
-
-.slider::-webkit-scrollbar-thumb{
-    background: var(--product-cart-button-text);
-}
 
 .slider{
     display: flex;
@@ -39,6 +28,24 @@
     overflow-x: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
+}
+
+.slider:hover::-webkit-scrollbar-thumb{
+    transition: opacity 1s ease-in-out;
+    background: var(--product-cart-button-text);
+}
+
+.slider::-webkit-scrollbar{
+    display: flex;
+}
+
+.slider::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+.slider::-webkit-scrollbar-thumb{
+    background: transparent;
+    transition: background-color 1s ease-in-out;
 }
 
 .slider ul{

@@ -2,25 +2,40 @@
 @media screen and (max-width: 414px){
 
     .suggestions-wrapper{
-        height: 634px !important;
+        height: fit-content !important;
     }
 
+    .suggestions-wrapper h2{
+        display: flex;
+        margin: 1.1em 0;
+        align-self: center;
+        font-weight: 400;  
+    }
+
+
     .slider{
-        height: 520px;
+        height: 29.5em;
+        width: 100%;
         margin: 0 0 0 auto;
+        padding-left: 1em;
+    }
+
+    .slider ul{
+        width: 100%;
     }
 
     .slider-item{
-        width: 300px !important;
-        height: 470px !important;
+        height: fit-content !important;
+        margin: 0 !important;
     }
     
     .slider-item-button{
-        width: 300px !important;
-        height: 470px !important;
+        width: 100% !important;
+        height: 420px !important;
+        padding-right: 2.1em;
     }
 
     .slider-item-image{
-        width: 300px !important;
+        width: 19.5em !important;
     }
 }

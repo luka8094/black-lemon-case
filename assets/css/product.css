@@ -37,7 +37,7 @@
  }
  .product-image{
     height: auto;
-    max-width: 910px;
+    width: 100%;
     object-fit: cover;
  }
  
@@ -172,4 +172,5 @@
      border: none;
      font-size: 18px;
      color: var(--product-cart-button-text);
+     cursor: pointer;
  } 
